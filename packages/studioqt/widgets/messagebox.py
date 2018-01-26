@@ -494,7 +494,7 @@ class MessageBox(QtWidgets.QDialog):
         Fade in the dialog using the opacity effect.
 
         :type duration: int 
-        :rtype: QtCore.QPropertyAnimation 
+        :rtype: None 
         """
         if self._frame:
             self._animation = studioqt.fadeIn(self._frame, duration=duration)
